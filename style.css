@@ -1,0 +1,265 @@
+body {
+  margin: 0;
+}
+.header {
+  display: grid;
+  grid-template-columns: 8fr 1fr 1fr 1fr;
+  list-style-type: none;
+  font-family: sans-serif;
+  position: fixed;
+  background-color: white;
+  padding: 15px;
+}
+.header a:hover {
+  background-color: white;
+  color: #00b39b;
+}
+.dropdown {
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  width: 25%;
+}
+.center {
+  text-align: center;
+}
+.image {
+  width: 30px;
+  margin-top: 75px;
+}
+.head {
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  color: #00b39b;
+}
+.paragraph {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: #747474;
+  padding: 50px 100px;
+  font-family: "Roboto", Arial, sans-serif;
+  line-height: 1.75;
+  font-weight: 400;
+}
+.countrys {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5em;
+  padding: 5%;
+  font-weight: normal;
+}
+#counrty {
+  margin-top: 15%;
+  border-style: none;
+}
+.doctor {
+  background-color: #00b39b;
+  border-radius: 10px;
+  height: 215px;
+  padding: 30px;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: large;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.imgpat {
+  margin-top: auto;
+  margin-left: auto;
+}
+.clinics {
+  background-color: #3d83df;
+  border-radius: 10px;
+  color: white;
+  padding: 30px;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.deliver {
+  background-color: #747474;
+  border-radius: 10px;
+  font-family: "Work Sans", Arial, sans-serif;
+  color: white;
+  padding: 30px;
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.grid {
+  background-color: #00b39b60;
+  padding: 10px;
+}
+.gridz {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 40px;
+}
+.worlds {
+  font-family: "Work Sans", Arial, sans-serif;
+}
+.imgs {
+  width: 300px;
+  margin-top: 40px;
+}
+.inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+}
+.countries {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  width: 180px;
+  height: 180px;
+  font-family: "Work Sans", Arial, sans-serif;
+}
+.millions {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  width: 180px;
+  height: 180px;
+  font-family: "Work Sans", Arial, sans-serif;
+}
+.unique {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  width: 180px;
+  height: 180px;
+  font-family: "Work Sans", Arial, sans-serif;
+}
+.active {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  width: 180px;
+  height: 180px;
+  font-family: "Work Sans", Arial, sans-serif;
+}
+.we {
+  font-family: "Work Sans", sans-serif;
+  color: #00b39b;
+}
+.zan {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -100px;
+  font-family: sans-serif;
+}
+.zan,
+a {
+  color: #747474;
+}
+.zan.icon {
+  background-color: #747474;
+}
+.dok {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+.zank {
+  margin-left: 20%;
+  margin-bottom: 100px;
+  padding: 5px;
+}
+.improve {
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  color: #00b39b;
+}
+.improve p {
+  color: #747474;
+  font-weight: 700;
+}
+.photos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  grid-gap: 1em;
+  margin: 50px;
+}
+.warsaw {
+  background-color: white;
+  border-radius: 10px;
+  height: 150px;
+}
+.wave {
+  display: flex;
+  justify-content: space-around;
+}
+.butt {
+  padding: 1em 1.5em;
+  padding-top: 1em;
+  padding-right: 1.5em;
+  padding-bottom: 1em;
+  padding-left: 1.5em;
+  border-radius: 5px;
+}
+.barcelona {
+  background-color: white;
+  border-radius: 5px;
+}
+.istanbul {
+  background-color: white;
+  border-radius: 5px;
+}
+.rome {
+  background-color: white;
+}
+.bologna {
+  background-color: white;
+}
+.curitiba {
+  background-color: white;
+}
+.mexico {
+  background-color: white;
+}
+.sounds {
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  color: #00b39b;
+}
+button {
+  background-color: #3d83df;
+  font-family: "Roboto", Arial, sans-serif;
+  color: white;
+  border-style: none;
+  text-align: center;
+}
+.but {
+  background-color: #3d83df;
+  padding: 1.1666666667em 1.5em;
+  font-family: "Roboto", Arial, sans-serif;
+  color: white;
+  border-style: none;
+  text-align: center;
+}
+.fotter {
+  font-family: "Roboto", Arial, sans-serif;
+  text-align: center;
+  font-size: small;
+  padding: 10px;
+  border-style: 1, ridge;
+}
+.ancor a {
+  color: #3d83df;
+}
+.custome {
+  position: relative;
+  font-family: Arial;
+}
